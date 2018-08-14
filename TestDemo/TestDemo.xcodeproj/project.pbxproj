@@ -15,6 +15,7 @@
 		2772F8C72122F31600DEC8CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2772F8C62122F31600DEC8CC /* main.m */; };
 		2772F8D12122F31600DEC8CC /* TestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2772F8D02122F31600DEC8CC /* TestDemoTests.m */; };
 		2772F8DC2122F31600DEC8CC /* TestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2772F8DB2122F31600DEC8CC /* TestDemoUITests.m */; };
+		2772F8EB2122F40300DEC8CC /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2772F8EA2122F40300DEC8CC /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2772F8D72122F31600DEC8CC /* TestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2772F8DB2122F31600DEC8CC /* TestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoUITests.m; sourceTree = "<group>"; };
 		2772F8DD2122F31600DEC8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2772F8E92122F40300DEC8CC /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		2772F8EA2122F40300DEC8CC /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				2772F8C22122F31600DEC8CC /* LaunchScreen.storyboard */,
 				2772F8C52122F31600DEC8CC /* Info.plist */,
 				2772F8C62122F31600DEC8CC /* main.m */,
+				2772F8E92122F40300DEC8CC /* MyViewController.h */,
+				2772F8EA2122F40300DEC8CC /* MyViewController.m */,
 			);
 			path = TestDemo;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				2772F8BC2122F31500DEC8CC /* ViewController.m in Sources */,
 				2772F8C72122F31600DEC8CC /* main.m in Sources */,
+				2772F8EB2122F40300DEC8CC /* MyViewController.m in Sources */,
 				2772F8B92122F31500DEC8CC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
